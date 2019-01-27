@@ -1,0 +1,30 @@
+button{
+  background-color:blue;
+  width: 50px;
+  height: 50px;
+  box-shadow: 10px 10px;
+  border-style: dotted;
+}
+button:hover{
+  border-radius:50%;
+  background-color: yellow;
+}
+
+.b2:hover{
+  background-color: black;
+  -webkit-transform: rotateZ(-30deg);
+  -ms-transform: rotateZ(-30deg);
+  transform: rotateZ(-20deg);
+  animation: colorir 5s;
+}
+@keyframes colorir {
+  0% {
+    background-color: orange;
+  }
+  50% {
+    background-color: purple;
+  }
+  100% {
+    background-color: red;
+  }
+}
